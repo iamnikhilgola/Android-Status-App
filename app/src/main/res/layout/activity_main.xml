@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Hindi Font :"></TextView>
+    <com.nikhil.hindistatusalltime.HindiEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type hindi status here "
+        android:layout_margin="5dp"
+        android:id="@+id/et_hindistatus"
+        >
+
+    </com.nikhil.hindistatusalltime.HindiEditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English Font :"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <com.nikhil.hindistatusalltime.HindiEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="type English status here "
+            android:id="@+id/et_engstatus"
+            android:layout_margin="5dp"
+            >
+
+        </com.nikhil.hindistatusalltime.HindiEditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags :"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <com.nikhil.hindistatusalltime.HindiEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Love,Comedy like this"
+            android:id="@+id/et_tags"
+            android:layout_margin="5dp"
+            >
+
+        </com.nikhil.hindistatusalltime.HindiEditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Downloads"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="type hindi status here "
+            android:id="@+id/et_download"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Share"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="type hindi status here "
+            android:id="@+id/et_share"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/store"
+            android:text="Store"
+            >
+
+        </Button>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
