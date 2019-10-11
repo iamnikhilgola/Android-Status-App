@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "445348679549",
+    "firebase_url": "https://hindi-status-all-time.firebaseio.com",
+    "project_id": "hindi-status-all-time",
+    "storage_bucket": "hindi-status-all-time.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445348679549:android:c2efcfaf24658cb59c0614",
+        "android_client_info": {
+          "package_name": "com.nikhil.hindistatusalltime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445348679549-ocudtt7gokbsp437c7noht7ocjbf66r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nikhil.hindistatusalltime",
+            "certificate_hash": "8995f94b7e2d5e80b76fd948be5f44ba0827e59a"
+          }
+        },
+        {
+          "client_id": "445348679549-cehehmm8dhq74v5einaabbnp4as5i3js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO-3dyd2oomChZ29DBObPVW_awit_RupE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445348679549-cehehmm8dhq74v5einaabbnp4as5i3js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
